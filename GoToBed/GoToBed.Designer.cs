@@ -167,6 +167,7 @@
             this.Controls.Add(this.dateTimePicker);
             this.Controls.Add(this.subtitleText);
             this.Controls.Add(this.titleLabel);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
             this.Name = "GoToBed";
             this.contextMenuStrip.ResumeLayout(false);
